@@ -26,6 +26,8 @@ public class Main extends Application {
 
         primaryStage.setScene(new Scene(borderPane, 600, 600));
         primaryStage.show();
+
+        primaryStage.setFullScreen(true);
     }
 
 
