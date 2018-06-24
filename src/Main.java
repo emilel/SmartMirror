@@ -22,7 +22,7 @@ public class Main extends Application {
         borderPane.setAlignment(borderPane.getTop(), Pos.CENTER);
         borderPane.setAlignment(borderPane.getBottom(), Pos.CENTER);
         borderPane.setMargin(borderPane.getBottom(), new Insets(100, 100, 100, 100));
-        borderPane.setMargin(borderPane.getTop(), new Insets(30, 100, 30, 100));
+        borderPane.setMargin(borderPane.getTop(), new Insets( 30, 100, 30, 100));
 
         primaryStage.setScene(new Scene(borderPane, 600, 600));
         primaryStage.show();

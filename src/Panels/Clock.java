@@ -13,7 +13,7 @@ public class Clock {
         DateFormat dateFormat = new SimpleDateFormat("HH:mm");
         Date date = new Date();
         Label clock = new Label(dateFormat.format(date));
-        clock.setFont(Font.font(48));
+        clock.setFont(Font.font(50));
         return clock;
     }
 }
